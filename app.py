@@ -3,7 +3,7 @@ import streamlit as st
 import joblib
 
 # Charger le modèle préalablement sauvegardé
-model = joblib.load('/Users/chouaibchegdati/Documents/Saiket_Internship_Project/my_model.pkl')
+model = joblib.load('my_model.pkl')
 
 # Fonction pour effectuer la prédiction
 def predict(input_data):
